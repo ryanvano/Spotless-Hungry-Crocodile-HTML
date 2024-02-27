@@ -604,8 +604,18 @@
   .home-link04 {
     font-size: 1.5em;
   }
+  .home-hero {
+    height: 100%;
+  }
   .home-services {
     background-color: var(--dl-color-gray-black);
+  }
+  .home-container01 {
+    flex: initial;
+  }
+  .home-container03 {
+    flex: initial;
+    max-width: auto;
   }
 }
 @media(max-width: 991px) {
