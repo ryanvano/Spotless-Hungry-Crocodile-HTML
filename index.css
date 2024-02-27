@@ -575,7 +575,7 @@
   font-family: "Inter";
   font-weight: 400;
 }
-.home-text28 {
+.home-text32 {
   color: var(--dl-color-gray-white);
   height: 100%;
   align-self: flex-end;
@@ -674,6 +674,10 @@
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
+  .home-text32 {
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-halfunit);
+  }
 }
 @media(max-width: 767px) {
   .home-navbar-interactive {
@@ -760,6 +764,9 @@
     width: auto;
   }
   .home-text28 {
+    width: auto;
+  }
+  .home-text32 {
     width: auto;
   }
 }
@@ -862,6 +869,11 @@
     text-align: left;
   }
   .home-text28 {
+    opacity: 0;
+    align-self: flex-start;
+    text-align: left;
+  }
+  .home-text32 {
     align-self: flex-start;
     text-align: left;
   }
