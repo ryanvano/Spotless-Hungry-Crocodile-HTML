@@ -575,7 +575,7 @@
   font-family: "Inter";
   font-weight: 400;
 }
-.home-text32 {
+.home-text30 {
   color: var(--dl-color-gray-white);
   height: 100%;
   align-self: flex-end;
@@ -603,6 +603,9 @@
   }
   .home-link04 {
     font-size: 1.5em;
+  }
+  .home-services {
+    background-color: var(--dl-color-gray-black);
   }
 }
 @media(max-width: 991px) {
@@ -674,7 +677,7 @@
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
-  .home-text32 {
+  .home-text30 {
     padding-left: var(--dl-space-space-halfunit);
     padding-right: var(--dl-space-space-halfunit);
   }
@@ -766,7 +769,7 @@
   .home-text28 {
     width: auto;
   }
-  .home-text32 {
+  .home-text30 {
     width: auto;
   }
 }
@@ -873,7 +876,7 @@
     align-self: flex-start;
     text-align: left;
   }
-  .home-text32 {
+  .home-text30 {
     align-self: flex-start;
     text-align: left;
   }
