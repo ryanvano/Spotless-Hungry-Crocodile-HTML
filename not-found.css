@@ -1,4 +1,4 @@
-.not-found1-container {
+.not-found1-container1 {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -7,14 +7,16 @@
   flex-direction: column;
   justify-content: center;
 }
-.not-found1-container1 {
+ 
+.not-found1-container2 {
   display: flex;
   position: relative;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.not-found1-text1 {
+ 
+.not-found1-text2 {
   color: rgb(38, 38, 38);
   font-size: 252px;
   margin-top: -20px;
@@ -22,14 +24,16 @@
   margin-bottom: -20px;
   letter-spacing: -20px;
 }
-.not-found1-container2 {
+ 
+.not-found1-container3 {
   width: 421px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.not-found1-text2 {
+ 
+.not-found1-text3 {
   text-align: center;
   font-weight: 400;
 }

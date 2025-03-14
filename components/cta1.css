@@ -1,0 +1,70 @@
+.cta1-container {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.cta1-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta1-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+  flex-direction: column;
+}
+ 
+.cta1-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+}
+ 
+.cta1-button {
+  border-color: var(--dl-color-theme-secondary1);
+  border-style: hidden;
+  border-width: 0px;
+  background-color: #000000;
+}
+ 
+.cta1-action1 {
+  text-align: center;
+  border-color: var(--dl-color-gray-black);
+  border-style: hidden;
+  border-width: 1px;
+}
+ 
+.cta1-fragment {
+  display: contents;
+}
+ 
+.cta1-text {
+  display: inline-block;
+}
+ 
+@media(max-width: 479px) {
+  .cta1-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta1-button {
+    width: 100%;
+  }
+}
