@@ -83,10 +83,22 @@
 
  
 @media(max-width: 1600px) {
+  .cta11-heading11 {
+    font-family: Inter;
+  }
+  .cta11-heading12 {
+    font-family: Inter;
+  }
+  .cta11-content1 {
+    font-family: Inter;
+  }
   .cta11-button {
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
     background-color: #000000;
+  }
+  .cta11-action1 {
+    font-family: Inter;
   }
   .cta11root-class-name {
     padding-top: var(--dl-layout-space-twounits);
@@ -156,7 +168,7 @@
  
 @media(max-width: 1600px) {
   .testimonial-card2-text1 {
-    font-family: Noto Sans;
+    font-family: Inter;
   }
 }
  
@@ -191,7 +203,7 @@
   }
 }
 
-.testimonial-card2-wrapper-1qxd {
+.testimonial-card2-wrapper-7ov4 {
   display: contents;
 }
  
@@ -241,7 +253,7 @@
  
 @media(max-width: 1600px) {
   .testimonial-card2-text3 {
-    font-family: Noto Sans;
+    font-family: Inter;
   }
 }
  
@@ -851,7 +863,7 @@
   .home-text22 {
     font-size: 18px;
     font-style: normal;
-    font-family: Noto Sans;
+    font-family: Inter;
     font-weight: 400;
   }
 }

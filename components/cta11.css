@@ -79,10 +79,22 @@
 
  
 @media(max-width: 1600px) {
+  .cta11-heading11 {
+    font-family: Inter;
+  }
+  .cta11-heading12 {
+    font-family: Inter;
+  }
+  .cta11-content1 {
+    font-family: Inter;
+  }
   .cta11-button {
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
     background-color: #000000;
+  }
+  .cta11-action1 {
+    font-family: Inter;
   }
   .cta11root-class-name {
     padding-top: var(--dl-layout-space-twounits);
