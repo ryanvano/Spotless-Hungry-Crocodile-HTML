@@ -1,8 +1,8 @@
-.cta11-wrapper {
+.cta12-wrapper {
   display: contents;
 }
  
-.cta11-container {
+.cta12-container {
   gap: var(--dl-layout-space-threeunits);
   display: flex;
   overflow: hidden;
@@ -10,7 +10,7 @@
   flex-direction: column;
 }
  
-.cta11-max-width {
+.cta12-max-width {
   width: 100%;
   display: flex;
   max-width: var(--dl-layout-size-maxwidth);
@@ -18,7 +18,7 @@
   flex-direction: column;
 }
  
-.cta11-content {
+.cta12-content {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-self: stretch;
@@ -26,41 +26,29 @@
   flex-direction: column;
 }
  
-.cta11-heading11 {
+.cta12-heading1 {
   text-align: center;
 }
  
-.cta11-heading12 {
+.cta12-content1 {
   text-align: center;
 }
  
-.cta11-content1 {
-  text-align: center;
-}
- 
-.cta11-actions {
+.cta12-actions {
   gap: var(--dl-layout-space-oneandhalfunits);
   display: flex;
   align-items: flex-start;
 }
  
-.cta11-action1 {
+.cta12-action1 {
   text-align: center;
-}
- 
-.home-fragment4 {
-  display: contents;
-}
- 
-.home-text18 {
-  display: inline-block;
 }
  
 .home-fragment3 {
   display: contents;
 }
  
-.home-text17 {
+.home-text14 {
   display: inline-block;
 }
  
@@ -68,7 +56,7 @@
   display: contents;
 }
  
-.home-text16 {
+.home-text13 {
   display: inline-block;
 }
  
@@ -76,44 +64,29 @@
   display: contents;
 }
  
-.home-text15 {
+.home-text12 {
   display: inline-block;
 }
  
 
  
-@media(max-width: 1600px) {
-  .cta11-heading11 {
-    font-family: Inter;
-  }
-  .cta11-heading12 {
-    font-family: Inter;
-  }
-  .cta11-content1 {
-    font-family: Inter;
-  }
-  .cta11-button {
-    border-color: var(--dl-color-gray-black);
-    border-width: 1px;
-    background-color: #000000;
-  }
-  .cta11-action1 {
-    font-family: Inter;
-  }
-  .cta11root-class-name {
-    padding-top: var(--dl-layout-space-twounits);
-    padding-left: var(--dl-layout-space-unit);
-    padding-right: var(--dl-layout-space-unit);
-    padding-bottom: var(--dl-layout-space-unit);
+@media(max-width: 1200px) {
+  .cta12root-class-name {
+    fill: var(--dl-color-gray-black);
+    color: var(--dl-color-gray-black);
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+    background-color: #ffffff;
   }
 }
  
 @media(max-width: 479px) {
-  .cta11-actions {
+  .cta12-actions {
     width: 100%;
     flex-direction: column;
   }
-  .cta11-button {
+  .cta12-button {
     width: 100%;
   }
 }
@@ -203,7 +176,7 @@
   }
 }
 
-.testimonial-card2-wrapper-7ov4 {
+.testimonial-card2-wrapper-cbem {
   display: contents;
 }
  
@@ -608,23 +581,12 @@
   margin-bottom: var(--dl-layout-space-twounits);
 }
  
-.home-text11 {
-  color: var(--dl-color-gray-white);
-}
- 
 .home-point-s {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: var(--dl-color-gray-black);
-}
- 
-.home-text12 {
-  color: var(--dl-color-gray-white);
-  align-self: center;
-  padding-top: var(--dl-layout-space-twounits);
-  padding-bottom: var(--dl-layout-space-twounits);
 }
  
 .home-container11 {
@@ -666,7 +628,7 @@
   display: contents;
 }
  
-.home-text15 {
+.home-text12 {
   display: inline-block;
 }
  
@@ -674,7 +636,7 @@
   display: contents;
 }
  
-.home-text16 {
+.home-text13 {
   display: inline-block;
 }
  
@@ -682,15 +644,7 @@
   display: contents;
 }
  
-.home-text17 {
-  display: inline-block;
-}
- 
-.home-fragment4 {
-  display: contents;
-}
- 
-.home-text18 {
+.home-text14 {
   display: inline-block;
 }
  
@@ -702,7 +656,7 @@
   background-color: var(--dl-color-gray-black);
 }
  
-.home-text19 {
+.home-text15 {
   color: var(--dl-color-gray-white);
   align-self: center;
   padding-top: var(--dl-layout-space-twounits);
@@ -731,7 +685,7 @@
   background-color: var(--dl-color-gray-white);
 }
  
-.home-text22 {
+.home-text18 {
   font-style: normal;
   font-weight: 600;
   line-height: 1.75;
@@ -756,7 +710,7 @@
   background-color: var(--dl-color-gray-black);
 }
  
-.home-text25 {
+.home-text21 {
   color: var(--dl-color-gray-white);
   align-self: center;
   padding-top: var(--dl-layout-space-twounits);
@@ -825,7 +779,7 @@
   justify-content: space-between;
 }
  
-.home-text28 {
+.home-text24 {
   color: var(--dl-color-gray-white);
   height: 100%;
   align-self: flex-end;
@@ -834,7 +788,7 @@
   font-weight: 400;
 }
  
-.home-text34 {
+.home-text30 {
   color: var(--dl-color-gray-white);
   height: 100%;
   align-self: flex-end;
@@ -843,13 +797,49 @@
   font-weight: 400;
 }
  
-.home-text37 {
+.home-text33 {
   color: var(--dl-color-gray-white);
   height: 100%;
   align-self: flex-end;
   text-align: left;
   font-family: "Inter";
   font-weight: 400;
+}
+ 
+.home-link27 {
+  display: contents;
+}
+ 
+.home-container20 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.home-icon26 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.home-text39 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
  
 @media(max-width: 1600px) {
@@ -857,10 +847,7 @@
     font-size: 1.5em;
     text-decoration: none;
   }
-  .home-text11 {
-    color: var(--dl-color-gray-white);
-  }
-  .home-text22 {
+  .home-text18 {
     font-size: 18px;
     font-style: normal;
     font-family: Inter;
@@ -891,10 +878,38 @@
   }
   .home-hero {
     height: 100%;
+    align-self: flex-start;
     background-image: url("public/cropped-new-truck-2-2-1500h.jpg");
+  }
+  .home-text10 {
+    color: var(--dl-color-gray-white);
+    width: var(--dl-layout-size-maxwidth);
+    height: 72px;
+    font-size: 3rem;
+    max-width: 100%;
+    align-self: flex-start;
+    text-align: center;
+    font-family: Arial;
+    margin-right: 0px;
+  }
+  .home-text11 {
+    color: #f4f3f3;
+    width: 505px;
+    height: 71px;
+  }
+  .home-point-s {
+    background-color: var(--dl-color-theme-secondary1);
   }
   .home-container11 {
     flex: initial;
+  }
+  .home-container12 {
+    width: 1108px;
+    height: 422px;
+  }
+  .home-image1 {
+    width: 508px;
+    height: 386px;
   }
   .home-container13 {
     flex: initial;
@@ -945,13 +960,10 @@
   .home-hero {
     width: 100%;
   }
-  .home-text12 {
+  .home-text15 {
     text-align: center;
   }
-  .home-text19 {
-    text-align: center;
-  }
-  .home-text25 {
+  .home-text21 {
     text-align: center;
   }
   .home-container15 {
@@ -961,19 +973,19 @@
     margin-right: 0px;
     margin-bottom: var(--dl-layout-space-twounits);
   }
-  .home-text28 {
+  .home-text24 {
     padding-left: var(--dl-layout-space-halfunit);
     padding-right: var(--dl-layout-space-halfunit);
   }
-  .home-text34 {
+  .home-text30 {
     padding-left: var(--dl-layout-space-halfunit);
     padding-right: var(--dl-layout-space-halfunit);
   }
-  .home-text35 {
+  .home-text31 {
     padding-left: var(--dl-layout-space-halfunit);
     padding-right: var(--dl-layout-space-halfunit);
   }
-  .home-text37 {
+  .home-text33 {
     padding-left: var(--dl-layout-space-halfunit);
     padding-right: var(--dl-layout-space-halfunit);
   }
@@ -1052,16 +1064,16 @@
     padding-left: var(--dl-layout-space-twounits);
     padding-right: var(--dl-layout-space-twounits);
   }
-  .home-text28 {
+  .home-text24 {
     width: auto;
   }
-  .home-text34 {
+  .home-text30 {
     width: auto;
   }
-  .home-text35 {
+  .home-text31 {
     width: auto;
   }
-  .home-text37 {
+  .home-text33 {
     width: auto;
   }
 }
@@ -1143,21 +1155,21 @@
     align-items: flex-start;
     flex-direction: column;
   }
-  .home-text28 {
+  .home-text24 {
     align-self: flex-start;
     text-align: left;
   }
-  .home-text34 {
+  .home-text30 {
     opacity: 0;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text35 {
+  .home-text31 {
     opacity: 0;
     align-self: flex-start;
     text-align: left;
   }
-  .home-text37 {
+  .home-text33 {
     align-self: flex-start;
     text-align: left;
   }

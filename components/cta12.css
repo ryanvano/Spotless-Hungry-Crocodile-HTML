@@ -1,0 +1,88 @@
+.cta12-container {
+  gap: var(--dl-layout-space-threeunits);
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  flex-direction: column;
+}
+ 
+.cta12-max-width {
+  width: 100%;
+  display: flex;
+  max-width: var(--dl-layout-size-maxwidth);
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta12-content {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.cta12-heading1 {
+  text-align: center;
+}
+ 
+.cta12-content1 {
+  text-align: center;
+}
+ 
+.cta12-actions {
+  gap: var(--dl-layout-space-oneandhalfunits);
+  display: flex;
+  align-items: flex-start;
+}
+ 
+.cta12-action1 {
+  text-align: center;
+}
+ 
+.cta12-fragment1 {
+  display: contents;
+}
+ 
+.cta12-text1 {
+  display: inline-block;
+}
+ 
+.cta12-fragment2 {
+  display: contents;
+}
+ 
+.cta12-text2 {
+  display: inline-block;
+}
+ 
+.cta12-fragment3 {
+  display: contents;
+}
+ 
+.cta12-text3 {
+  display: inline-block;
+}
+ 
+
+ 
+@media(max-width: 1200px) {
+  .cta12root-class-name {
+    fill: var(--dl-color-gray-black);
+    color: var(--dl-color-gray-black);
+    width: 100%;
+    max-width: 100%;
+    align-self: center;
+    background-color: #ffffff;
+  }
+}
+ 
+@media(max-width: 479px) {
+  .cta12-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+  .cta12-button {
+    width: 100%;
+  }
+}
